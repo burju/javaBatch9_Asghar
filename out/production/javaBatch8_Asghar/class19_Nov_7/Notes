@@ -1,0 +1,30 @@
+Complier converts your java code to the byte code where in ehich our JVM can understand.
+
+CONSTRUCTORS:
+it is a special block of code  used to create an object.
+■It is a special block of code similarto method that is executed when we create an object.
+■ the purpose of the costructors is to initialize our fields.
+■ A constructor must have the same name as the class itself.
+■ Constructors do not have a return type—not even void .
+■ Constructors are invoked using the new operator when an object is created.
+Constructors play the role of initializing objects.
+■ We pass arguements to constructors
+
+
+SIMILARITIES AND DIFFERENCES BETWEEN CONSTRUCTORS:
+
+1- both have parameters
+2- both have access modifiers like private/ public/ protected / default.
+
+Differences:
+1- Constructor name must be same with the class name.
+2- constructors cannot return values as methods can
+3- constructors cannot use static final abstract
+4- constructors are automatically called when an instance of the class is created.
+
+When should we use constructors?
+- when we want to control the initialization for our fields.
+
+JAVA WILL NOT CREATE DEFAULT CONSTRUCTOR IF YOU CREATE YOUR OWN CONSTRUCTORS
+
+

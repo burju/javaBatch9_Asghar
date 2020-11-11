@@ -1,0 +1,58 @@
+VARIABLE TYPES:
+
+instance variable,
+local variable,
+static variable.
+
+the memory we use is limited. so we need to use it wisely.
+Why should we be careful with selecting the correct type?
+1- memory reasons
+2- scope of variables
+
+LOCAL VARIABLES: any variable that is declared inside a method, a {} block of code , or a constructor.
+                  Properties of Local Variables:
+                                1*We cannot access them outside the block. scope is limited
+                                2* Temporarily stored.As soon as they are used, destroyed y garbage collector.
+                                   very efficient in managing memory.memory utilization is good.
+
+INSTANCE VARIABLE: All the variables which are declared inside a class but
+                    outside of the (any) methods, blocks, and constructors. if you do not use them wisely they take up a lot of space.
+                    instance is outside all methods  but within the class
+                    Properties of Instance Variables:
+                                   1* We can access them throught the class
+                                   2* Memory is allocated inside RAM as soon as the object of that class is created.
+                                      It stays in the memory. they are highly discouraged. not efficient in handling memory
+ STATIC VARIABLES: Always declared on class level. Global variables. cannot be local. only class members will be static
+                  They are declared outside of the methods, constructors, block of codes with static keyword.
+
+================================================================================================================
+Access modifiers:
+PUBLIC, PRIVATE, DEFAULT
+They are keywords that help us to manage the visibility of our variables and methods.
+why we should use private access modifiers?
+
+PRIVATE: Private Access modifier are accessible from the same class.
+class Account{
+private int balance;
+void depositMoney(){
+if(boolean properChannel, int money){
+balance= balance+money;
+}
+}
+}
+
+class hacker{
+balance=10_000// cannot access CE Error.
+}
+
+DEFAULT: if we do not specify any access modifier the default behaviour will be assigned. and they'll be available within the same package&
+         but cannot be reached from other packaged.
+
+PUBLIC: if we declare our methods or instance variables as public we can access them from anywhere.
+
+NON ACCESS MODIFIERS:
+*Static
+*Final
+*Abstract
+*Synchronized
+

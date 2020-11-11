@@ -1,0 +1,33 @@
+INHERITANCE:
+
+inheritance is a mechanishm in java.
+through which we can se the fields and methods from one class to another class without re-writing
+a single line of code / repeting the code.
+
+BENEFITS:
+1-cleaner more efficient code for memory and execution
+2- it helpds use reduce dublicate code
+3- save time
+4- reusing same code again&again
+
+disadvantages:
+classes are tightly coupled in parent class affect child classs
+
+Class Parent{
+int Money;
+void print(){
+south"Money"
+}
+}
+WHAT CANNOT BE INHERITED?
+-see slides
+
+WE can access our static fields and methods using class names& using objects
+of the class. But using class name is prefferable.
+Because static methods and fields belongs to class not to objects.
+
+
+SUPER KEYWORD:
+as we can use this keyword in java to refer to the current fields and methods we can use super keyword
+to access the fields adn methods from immidiate parent class.
+it is used in subclasses

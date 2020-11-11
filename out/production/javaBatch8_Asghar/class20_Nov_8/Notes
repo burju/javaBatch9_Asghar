@@ -1,0 +1,24 @@
+THIS KEYWORD:
+
+we can use THIS keyword to call our constructors as well.
+this can be used with variables, methods, constructors.
+
+
+INHERITANCE:
+disadvantages:
+    * the two classes(parent& child) are tightly coupled.
+    *
+    3 TYPES OF INHERITANCE:
+    - Single inheritance A-->B (B inherits from A)
+    - Multilevel inheritance A--> B-->C-->D ( D inherits the properties of C,B,A)
+    - Hierarchical inheritance A-->b , A-->c, A-->d ( A inherits b, A inherits c, A inherits d sperately)no
+
+ Why Java doesnt let inherit from multiple clases?
+ to reduce complexity, and simplify language multiple inheritance is not supported.
+ compile time errors are better than runtime errors.
+
+ WHAT IS NOT POSSIBLE WITH INHERITANCE?
+ 1- private members of the superclass are not inherited by the subclass. we'll get complier time error if we try.
+
+ 2- members that have default accessibility in the superclass are also not inherited by subclass in other packages, as these emmebrs are only accessible by their simple names in subclass within
+
